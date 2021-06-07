@@ -1,6 +1,7 @@
 .Weather {
   font-family: 'Raleway', sans-serif;
   padding: 16 px;
+  margin:30px auto;
 }
 
 .Weather h1, h2, h3 {
