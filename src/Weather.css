@@ -1,3 +1,36 @@
 .Weather {
-    backgroundColor: green;
+  font-family: 'Raleway', sans-serif;
+  padding: 16 px;
 }
+
+.Weather h1, h2, h3 {
+  color: white;
+  font-weight: light;
+  font-size: 24 px;
+  margin: 40 px 0 0 0;
+  line-height: 29 px;  
+}
+
+.Weather ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.form-control {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    margin-bottom:40px;
+    margin-left:110px;
+}
+
+.btn-outline-light {
+    font-family: 'Raleway', sans-serif;
+    margin-left:90px;
+}
+
+.row {
+    margin-bottom:40px;
+}
+
+

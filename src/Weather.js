@@ -1,22 +1,22 @@
-import React from 'react';
+import React from "react";
 import './Weather.css';
 
 export default function Weather() {
 return(
-    <div classNamne="Weather">
+    <div className="Weather">
         <form>
-            <div classname="row">
-            <div className="col-sm">
+            <div className="row">
+            <div className="col-6">
             <input 
             type="search" 
-            placeholder="enter a city" 
+            placeholder="Enter a city..." 
             className="form-control" />
             </div>
-            <div className="col-sm">
+            <div className="col-3">
             <input
             type="submit"
             value="search"
-            className="btn btn-primary" />
+            className="btn btn-outline-light" />
             </div>
             </div>
         </form>
@@ -40,7 +40,6 @@ return(
                         Wind: 2 km/h
                     </li>
                 </ul>
-                <hr />
             </div>
         </div>
         <div className="row">
